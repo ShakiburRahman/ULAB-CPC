@@ -3,3 +3,29 @@
     height:360px;
     margin: auto;
   }
+  .navbar-custom {
+    background-color: rgb(243, 241, 105);
+    padding: auto;
+}
+  .container-fluid{
+ width: auto;
+    
+    font-size: 20px;
+    
+    font-family: 'Merriweather', serif;
+ 
+  }
+  .active {
+    color: white;
+ }
+  
+
+.navbar .navbar-nav .nav-link:hover {
+  
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+
+}
+  
+
+
