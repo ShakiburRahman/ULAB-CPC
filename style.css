@@ -1,18 +1,23 @@
-.carousel-inner {
-    width:440px;
-    height:360px;
-    margin: auto;
-  }
-  .navbar-custom {
+
+  .navbar-light {
     background-color: rgb(243, 241, 105);
-    padding: auto;
+    padding-right: 10px;
+    margin-top: 0%;
+    margin-right: 1px;
+    margin-left: 1px;
 }
+
+
+
+
   .container-fluid{
  width: auto;
     
     font-size: 20px;
     
     font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: #57606f;
  
   }
   .active {
@@ -26,6 +31,45 @@
   text-decoration: underline;
 
 }
+
+
+.profile-show{
+  font-family: 'Merriweather', serif;
+ font-weight:900;
+ font-size: 20px;
+color: rgb(75, 75, 75);
+
+
+
+text-align: left;
+margin-left: 5%;
+margin-right: 5%;
+padding: 0%;
+/* box-shadow: 0 0 0 0 rgba(188, 188, 230, 0.11), 0 0px 6px 0 rgba(166, 163, 200, 0.33) */
+}
+.profile-show:hover{
+  color: aliceblue;
+  cursor: pointer;
+  
+    }
+
+    .logout .nav-item {
+      color: #57606f;
+      text-decoration: none;
+      margin-left: 0%;
+      margin-right: 4px;
+      border: none;
+      text-decoration: none;
+      display: inline-block;
+      
+    }
+    .logout:hover{
+      color: aliceblue;
+    }
+
+
+
+
 .Login-Form{
 
   position: relative;
@@ -50,3 +94,125 @@
     .card { box-shadow: 0 0 0 0 rgba(90, 113, 208, 0.11), 0 4px 26px 0 rgba(167, 175, 183, 0.33); border: solid 2px #dde4eb; border-radius: 10px; padding: 40px 5px 30px 15px; } 
     .card_status{ text-align: center; margin: 0 auto; padding-bottom: 20px; } 
   .status_number{ font-size: 35px; } .status_text{ font-size: 20px; } 
+
+
+  .dropdown-dept .dropdown-menu
+{
+  margin-left: auto;
+
+  margin-right: auto;
+}
+
+.dropdown-center
+{
+  margin-left: 310px;
+  margin-right: auto;
+  width: auto;
+  
+}
+
+
+
+
+  
+  .jobs-container {
+    border-style:solid;
+    border-width: 3px;
+   /* border-color: rgb(174, 219, 219); */
+   border-color:#dde4eb;
+   padding: 15px;  
+  height: auto;
+  
+  box-sizing:border-box;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-right: auto;
+  width: 60%;
+}
+
+  .jobs-container:hover{
+  
+    box-shadow: 0 0 0 0 rgba(90, 113, 208, 0.11), 0 4px 26px 0 rgba(167, 175, 183, 0.33); border: solid 2px rgb(174, 219, 219);  }
+    
+
+
+
+
+    
+
+  .job-position{
+    font-family: 'Merriweather', serif;
+color: #5a5a5a;
+font-weight:bold;
+font-size: 22px;
+width: auto;
+
+
+
+  }
+
+  .row
+{
+color: #57606f;
+padding: 0.5%;
+font-weight:600;
+font-size: 15px;
+width: auto;
+
+}
+/* 
+  .salary
+  {
+    padding: 0.5%;
+    font-weight:600;
+    font-size: 15px;
+    width: auto;
+  
+  }
+  .jobType
+  { padding: 0%;
+    font-weight:600;
+    font-size: 15px;
+    width: auto;
+
+  }
+  
+  .job-deadline{
+    padding: 0%;
+    font-weight:600;
+    font-size: 15px;
+    width: auto;
+  
+
+  } */
+
+  /* .jobDetailsPage{
+    padding: 10px;
+    font-weight:600;
+    font-size: 15px;
+    width: auto;
+   
+    
+  } */
+
+  p.clear {
+    clear: left;
+  }
+
+  
+
+
+
+  .page-alling{
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: rgb(243, 252, 249);
+    padding: 5%;
+
+  }
+
+  .page-alling .position
+  {
+    font-size: 40px;
+    color: #57606f;
+  }
